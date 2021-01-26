@@ -1,9 +1,7 @@
 fn main() {
-    let mut x = 42;
+    let x = vec!["a", "b", "c", "d"];
 
-    println!("X is {}", x);
-
-    x = 43;
-
-    println!("X is {}", x);
+    for (i, v) in x.iter().enumerate() {
+        println!("{} - {}", i, v);
+    }
 }
