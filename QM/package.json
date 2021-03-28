@@ -1,0 +1,6 @@
+{
+	"dependencies": {
+		"mathjs": "^9.2.0",
+		"nodemon": "^2.0.7"
+	}
+}
